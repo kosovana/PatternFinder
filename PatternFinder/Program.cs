@@ -110,12 +110,12 @@ namespace PatternFinderApp
         /// <summary>
         /// Length of the pattern
         /// </summary>
-        public Int32 PatternLength { get; }
+        public Int32 PatternLength { get; private set; }
 
         /// <summary>
         /// A string that will be searched for patterns in it
         /// </summary>
-        public String InputString { get; }
+        public String InputString { get; private set; }
 
         /// <summary>
         /// Displays a string to the user
